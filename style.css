@@ -20,6 +20,7 @@ img{
 input[type="text"]{
   background-color: white;
   border-color:transparent;
+  margin-top: 1vh;
 }
 button{
   background-color: whitesmoke;
@@ -32,17 +33,23 @@ button{
   height: 5vh;
   margin: 0vh 0px;
   border-bottom: 0.2vmax solid red;
-  align-items: center;
-  justify-items: left;
+  align-content:space-between;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+}
+#title > * {
+  margin: auto 1vw 0% 1vw;
 }
 .content{
   height: 100%;
-  margin: 2vmax;
   width: fit-content;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   flex: 1;
+  gap: 5vw;
+  margin-top: 2.5vw;
 }
 .article{
   width: 15vmax;
@@ -51,7 +58,6 @@ button{
   text-align: center;
   font-weight: 500;
   background-color: brown;
-  margin: 2vmax;
   border: 0px solid transparent;
   border-radius: 20px 20px 5% 5%;
 }
@@ -72,7 +78,8 @@ margin: 0% 5% 0% 5%;
 flex-wrap: nowrap;
 flex:1;
 justify-content: space-between; 
-font-size: 0.6vmax;
+font-size: 0.8vmax;
+
 }
 .description > div:first-of-type{
   margin: 0px;
@@ -82,5 +89,5 @@ font-size: 0.6vmax;
  
 }
 .pfp {
-  margin-top: 70%;
+  margin-top: 60%;
 }
